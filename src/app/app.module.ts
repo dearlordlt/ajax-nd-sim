@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { GameService } from './services/game.service';
-import { CharacterCreateComponent } from './components/character-create/character-create.component'
+import { CharacterCreateComponent } from './components/character-create/character-create.component';
+import { SelectComponent } from './components/select/select.component'
 
 const services = [
   GameService,
@@ -14,7 +15,8 @@ const services = [
 @NgModule({
   declarations: [
     AppComponent,
-    CharacterCreateComponent
+    CharacterCreateComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

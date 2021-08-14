@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharacterCreateComponent implements OnInit {
 
+  testVal = 1;
+
   constructor() { }
 
   ngOnInit(): void {

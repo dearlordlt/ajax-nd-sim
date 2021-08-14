@@ -1,0 +1,4 @@
+<select class="rounded border-2 border-blue-900 active:border-blue-900 bg-gray-800 active:bg-gray-600 w-full"
+  [(value)]="selectedValue">
+  <option *ngFor="let item of values" [value]="item" class="text-red-500">{{ item }}</option>
+</select>
