@@ -21,7 +21,7 @@ const skills: ISkillGroup[] = [
     ]
   },
   {
-    groupName: 'CRAFT',
+    groupName: 'COMBAT',
     skills: [
       { name: '', value: 0, description: '' },
     ]
