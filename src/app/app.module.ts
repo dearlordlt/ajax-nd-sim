@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 
 import { GameService } from './services/game.service';
 import { CharacterCreateComponent } from './components/character-create/character-create.component';
-import { SelectComponent } from './components/select/select.component'
+import { SelectComponent } from './components/select/select.component';
+import { AttributesComponent } from './components/attributes/attributes.component'
 
 const services = [
   GameService,
@@ -16,7 +17,8 @@ const services = [
   declarations: [
     AppComponent,
     CharacterCreateComponent,
-    SelectComponent
+    SelectComponent,
+    AttributesComponent
   ],
   imports: [
     BrowserModule,
